@@ -1,0 +1,5 @@
+{
+    "diffEditor.wordWrap": "on",
+    "editor.suggest.showWords": false,
+    "editor.suggest.showKeywords": false
+}
