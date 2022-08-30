@@ -13,6 +13,7 @@ header {
 header > h1 {
     font-family: Passion One, Arial, Helvetica, sans-serif;
     font-size: 8em;
+    font-variant: small-caps;
     margin: 0px;
     padding: 5px
 }
@@ -37,6 +38,7 @@ article.imagem > p {
     background-color: rgba(0, 0, 0, 0.459);
     width: fit-content;
     padding: 10px;
+   
 }
 article.semfundo {
     font-family: Sriracha, Arial, Helvetica, sans-serif;
@@ -44,8 +46,10 @@ article.semfundo {
     font-size: 3.5vw;
     padding: 30px;
 }
-article#fundoflor {
-    background-image: url(imagens/background001.jpg);
+article.semfundo > p {
+    padding-top: 2em;
+}
+article.imagem{
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,16 +57,15 @@ article#fundoflor {
     font-size: 3.5vw;
     color: white;
     padding: 30px;
+    background-position: right center;
+}
+article#fundoflor {
+    background-image: url(imagens/background001.jpg);
+   
 }
 article#fundolivro {
     background-image: url(imagens/background002.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: Sriracha, Arial, Helvetica, sans-serif;
-    font-size: 3.5vw;
-    color: white;
-    padding: 30px;
+  
 }
 footer {
     background-color: black;
